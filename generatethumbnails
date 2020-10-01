@@ -2,7 +2,7 @@
 
 cd CindyJS
 make
-cd ../src/assets/img/thumbnail
+cd ../src/assets/img/hdthumbnail
 
 phantomjs cindyscreenshot.js ../../../../CindyJS/examples/
 for i in `find ../../../../CindyJS/examples/ -type d`
